@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Divisas</string>
+    <string name="Resultado">Resultado</string>
+    <string name="Para">Para:</string>
+    <string name="De">De:</string>
+    <string name="Ingresecantidad">Ingrese cantidad a convertir</string>
+    <string name="Cantidad">Cantidad</string>
+    <string name="Convermonedas">Conversion de Monedas</string>
+    <string name="Conversion">Resultado de la conversion</string>
+    <string name="Ingreso">Ingresa cantidad de Divisa a convetir</string>
+    <string name="A">A:</string>
+    <string name="Calcular">Calcular</string>
+    <string name="Ingrese">Ingrese cantidad a convertir</string>
+
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+</resources>

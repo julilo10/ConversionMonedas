@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Convermonedas"
+        android:textStyle="bold"
+        android:textColor="@color/lightpink"
+        android:textSize="20sp"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Cantidad"
+        android:textColor="@color/lightpink"
+        android:textSize="19sp"
+        />
+
+    <EditText
+        android:id="@+id/eCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="@string/Ingrese"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/De"
+        android:textSize="19sp"
+        android:textColor="@color/lightpink"
+        />
+
+    <Spinner
+        android:id="@+id/spi1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tPara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/A"
+        android:textSize="19sp"
+        android:textColor="@color/lightpink"/>
+
+    <Spinner
+        android:id="@+id/spi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/bConvertir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:onClick="Calcular"
+        android:text="@string/Calcular"
+        android:textColor="@color/deeppink"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tConversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/Conversion"
+        android:textSize="19sp"
+        android:textStyle="italic" />
+
+
+
+</LinearLayout>
